@@ -1,0 +1,71 @@
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+
+# Dependencies
+node_modules/
+*.log
+*.pid
+*.seed
+*.pid.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+build/
+dist/
+.next/
+.nuxt/
+out/
+.vercel/
+.turbo/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.icloud
+
+# Temp files
+*.tmp
+*.temp
+*.bak
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Prisma
+*.db
+*.db-journal
+
+# Redis
+dump.rdb
+
+# Logs
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sensitive files
+credentials.json
+secrets.json
+*.pem
+*.key
+
+# Next.js specific
+.next/
+out/
+next-env.d.ts
